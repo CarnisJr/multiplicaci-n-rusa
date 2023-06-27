@@ -16,6 +16,7 @@ int main (void){
     if(exponente < 0){
         
         respuesta = 1 / baseExponencialNegativo;
+        
         while(exponente - 1 > 0){
 
             respuesta *= respuesta;
